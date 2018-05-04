@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'microposts/index'
+
+  get 'microposts/show'
+
+  get 'microposts/new'
+
+  get 'microposts/create'
+
+  get 'microposts/edit'
+
+  get 'microposts/update'
+
+  get 'microposts/destroy'
+
+  get 'sessions/new'
+
+  get 'users/new'
+
   root 'static_pages#home'
 
   # get 'static_pages/home'
